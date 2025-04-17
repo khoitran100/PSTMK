@@ -5,15 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bài Tập Chi Tiết</title>
     <script src="https://cdn.tailwindcss.com"></script>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CC0YGRBB7B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CC0YGRBB7B');
-</script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -50,6 +41,15 @@
         .fullscreen-btn {
             transition: background-color 0.3s ease;
         }
+		.visitor-counter {
+            display: inline-flex;
+            align-items: center;
+            font-weight: bold;
+            color: #1f2937;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            transition: all 0.3s ease;
+        }		
     </style>
 </head>
 <body class="bg-gray-100">
@@ -145,7 +145,11 @@
     };
 </script>
 
-
+<!-- Visitor Counter -->
+    <div style="pointer-events: none;" class="max-w-7xl mx-auto px-4 py-4 text-center">
+        <p class="text-gray-600">Hiện có <span class="visitor-counter"><span id="_waulcf"></span></span> người đang truy cập</p>
+        <script id="_waulcf">var _wau = _wau || []; _wau.push(["colored", "34vil8zgtz", "lcf", "76a5af000000"]);</script><script async src="//waust.at/co.js"></script>
+    </div>
 
 
     <!-- Footer -->
@@ -180,20 +184,5 @@
             }
         });
     </script>
-	<!-- Default Statcounter code for Mywebsite https://khoitran100.github.io/PSTMK/
--->
-<script type="text/javascript">
-var sc_project=13120837; 
-var sc_invisible=1; 
-var sc_security="e94e1402"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js" async></script>
-<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
-Statcounter" href="https://statcounter.com/" target="_blank"><img
-class="statcounter" src="https://c.statcounter.com/13120837/0/e94e1402/1/"
-alt="Web Analytics Made Easy - Statcounter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
 </body>
 </html>
